@@ -1,0 +1,30 @@
+#header{
+	color: black;
+	text-align: center;
+	padding: 0px;
+}
+#navbar{
+	background-color: orange;
+    font-size: 20px;
+    text-align: center;
+}
+#navbar ul {
+	list-style-type: none;
+}
+#navbar ul li {
+	display: inline;
+	margin-right: 30px;
+
+}
+#navbar ul li a {
+	text-decoration: none;
+    color: white;
+}
+#table1 tr {
+	text-decoration: none;
+	color: green;
+
+}
+.munu{
+	display: inline;
+}

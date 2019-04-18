@@ -1,0 +1,130 @@
+body{
+	margin: auto;
+	text-align: center;
+	background-image: url(game.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 120%;
+}
+
+
+
+#top{
+	width: 1200px;
+	margin: auto;
+	height: 150px;
+	background-image: url(game.jpg);
+    color: white;
+}
+#menu{
+	width: 1200px;
+	margin: auto;
+	height: 40px;
+	background-color: #FB8600;
+	
+}
+#menu ul{
+	list-style-type: none;
+	padding: 0px;
+
+}
+
+#menu ul li{
+	float: left;
+	width: 239px;
+	border-left: 1px solid white;
+	padding-top: 10px;
+	position: relative;
+}
+
+#menu ul li a{
+	text-decoration: none;
+    color: white;
+}
+
+#menu ul li a:hover{
+  background: green;
+}
+
+#submenu{
+	display: none;
+	position: absolute;
+	z-index: 90;
+	background: #FB8600;
+}
+
+#menu li:hover #submenu{
+	display: block;
+}
+
+#submenu li{
+	border-right: 1px solid white;
+    border-bottom: 1px dashed white;
+}
+
+#slidehinh {
+	width: 1200px;
+	height: 300px;
+	margin-top: 10px;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+#wrapper {
+	width: 1200px;
+	margin: auto;
+	height: 900px;
+	background: #FB8600;
+	margin-top: 10px;
+}
+#left{
+	width: 300px;
+	height: 900px;
+	background: #FB8600;
+	float: left;
+}
+#main{
+	width: 900px;
+	height: 900px;
+	background: #34495E;
+	float: left;
+	color: white;
+
+}
+#bottom{
+	width: 1200px;
+	margin: auto;
+	height: 200px;
+	background: pink;
+	float: left;
+}
+#topsp{
+	width: 300px;
+	height: 208px;
+	float: left;
+	background: #FB8600;
+}
+#listsp{
+	width: 300px;
+	height: 275px;
+	float: left;
+	background: #34495E;
+	color: white;
+
+}
+#bottomlist{
+	width: 400px;
+	height: 150px;
+	float: left;
+	background: #609C5B;
+    
+}
+#sanpham{
+	width: 900px;
+	height: 60px;
+	background-color: #609C5B;
+	float: left;
+}
+a{
+	text-decoration: none;
+    color: white;
+}
